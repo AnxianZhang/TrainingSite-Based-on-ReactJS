@@ -1,9 +1,11 @@
 import React from 'react';
+import Logo from '../components/Logo';
 import Navigation from '../components/Navigation';
 
 const About = () => {
     return (
         <div>
+            <Logo></Logo>
             <Navigation></Navigation>
             <h1>A props</h1>
             <br />
